@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSound — Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000;
+            color: #e5e5e5;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container { max-width: 640px; margin: 0 auto; }
+        h1 {
+            font-size: 28px;
+            color: #d4d8dd;
+            margin-bottom: 8px;
+        }
+        .subtitle { color: #888; font-size: 14px; margin-bottom: 32px; }
+        h2 {
+            font-size: 18px;
+            color: #fff;
+            margin-top: 28px;
+            margin-bottom: 8px;
+        }
+        p { margin-bottom: 16px; color: #ccc; }
+        ul { margin: 0 0 16px 20px; color: #ccc; }
+        li { margin-bottom: 6px; }
+        a { color: #d4d8dd; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        code {
+            background: #1a1a1a;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 13px;
+        }
+        .contact {
+            margin-top: 32px;
+            padding: 20px;
+            background: #0f0f0f;
+            border-radius: 10px;
+            border: 1px solid #1f1f1f;
+        }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #222;
+            color: #666;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>XSound — Support</h1>
+        <p class="subtitle">Control your Bose SoundTouch speaker over WiFi.</p>
+
+        <h2>Quick Start</h2>
+        <ol style="margin: 0 0 16px 20px; color: #ccc;">
+            <li>Make sure your Bose SoundTouch speaker is powered on and connected to the same WiFi network as your iPhone.</li>
+            <li>Open XSound. It will auto-discover the speaker.</li>
+            <li>Tap the speaker name to connect.</li>
+            <li>Browse stations, pick a preset, or control playback from the Remote tab.</li>
+        </ol>
+        <p>No Bose speaker? Tap <strong>"Listen on iPhone"</strong> on the first screen to stream radio through your iPhone, Bluetooth, or AirPlay device.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p><strong>My speaker isn't discovered.</strong><br>
+        Make sure XSound has Local Network permission (Settings → XSound → Local Network). The speaker must be on the same WiFi network as your iPhone and powered on. Try pulling down to refresh the scan.</p>
+
+        <p><strong>My presets disappeared.</strong><br>
+        Bose ended their cloud service on May 6, 2026. Presets that were cloud-synced may have been lost when the cloud shut down. To restore them in XSound: play a station, go to the Remote tab, long-press any preset button, and tap "Save Now Playing to Preset." This saves the station directly to your speaker's local storage — it will never disappear again.</p>
+
+        <p><strong>Nothing happens when I tap play.</strong><br>
+        If you're connected to a Bose speaker, make sure the speaker is powered on and not in standby. If you're using iPhone playback mode, check that your device isn't muted and that the station has a valid stream (some stations go offline).</p>
+
+        <p><strong>I hear Spanish stations when I tap the Paris tile.</strong><br>
+        That was fixed in v1.0 — Paris, Tel Aviv, Tokyo, and Miami now use TuneIn's city-specific region IDs for accurate local results.</p>
+
+        <p><strong>Can I switch between Bose and iPhone playback?</strong><br>
+        Yes. On the Now Playing tab, tap the Output pill below the volume slider. When playing through iPhone, you can route to any Bluetooth or AirPlay device using the AirPlay icon.</p>
+
+        <p><strong>Does XSound work after Bose's cloud shutdown?</strong><br>
+        Yes. XSound communicates directly with your speaker over your local WiFi network. It doesn't depend on Bose's cloud service at all. As long as your WiFi router runs, your speaker keeps working.</p>
+
+        <p><strong>What speakers are supported?</strong><br>
+        All Bose SoundTouch models including SoundTouch 10, 20, 30, Portable, and the Wave series. Anything that worked with the original Bose SoundTouch app.</p>
+
+        <p><strong>Does the app collect any data?</strong><br>
+        No. XSound collects zero data, has no accounts, no analytics, and no third-party SDKs. See the <a href="https://github.com/mizrahidiamond/diamondcheckai-legal/blob/main/xsound-privacy.html">Privacy Policy</a>.</p>
+
+        <h2>Report a Bug or Request a Feature</h2>
+        <p>Open an issue on GitHub — include your iPhone model, iOS version, and speaker model if relevant:</p>
+        <p><a href="https://github.com/mizrahidiamond/Xsound/issues">https://github.com/mizrahidiamond/Xsound/issues</a></p>
+
+        <div class="contact">
+            <h2 style="margin-top: 0;">Contact</h2>
+            <p style="margin-bottom: 0;">Email: <a href="mailto:xsound@mizrahidiamond.com">xsound@mizrahidiamond.com</a></p>
+        </div>
+
+        <div class="footer">
+            XSound &mdash; Control Your Bose Speaker
+        </div>
+    </div>
+</body>
+</html>
