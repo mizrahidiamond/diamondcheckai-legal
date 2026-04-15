@@ -72,6 +72,28 @@
         <p><strong>My speaker isn't discovered.</strong><br>
         Make sure XSound has Local Network permission (Settings → XSound → Local Network). The speaker must be on the same WiFi network as your iPhone and powered on. Try pulling down to refresh the scan.</p>
 
+        <h2 id="reconnect">Re-connecting Your Speaker to WiFi</h2>
+        <p>If you changed your WiFi password, got a new router, or moved, your Bose SoundTouch speaker needs to be re-paired to the network. XSound v1.0 doesn't yet include a setup flow (coming in a future update), but you can re-pair manually in under 2 minutes:</p>
+
+        <h3 style="color: #fff; font-size: 15px; margin-top: 20px; margin-bottom: 6px;">Method 1 — Browser setup (recommended, no other app needed)</h3>
+        <ol style="margin: 0 0 16px 20px; color: #ccc;">
+            <li>Hold the <strong>SoundTouch logo button</strong> on the top of the speaker for about 10 seconds until the speaker enters setup mode (it will stop playing and say "Setup" or display a flashing light).</li>
+            <li>On your iPhone, open <strong>Settings → WiFi</strong>. You should see a new network called <code>BoseSoundTouch XXXX</code> (where XXXX is a 4-character code). Join it.</li>
+            <li>Open Safari and go to <a href="http://192.168.1.1">http://192.168.1.1</a>. The speaker's setup page will load.</li>
+            <li>Enter your home WiFi network name and the new password. Submit.</li>
+            <li>Wait ~30 seconds. The speaker will reboot and join your home WiFi.</li>
+            <li>Reconnect your iPhone to your normal home WiFi, then open XSound. The speaker should appear under "Recently Connected" or be auto-discovered.</li>
+        </ol>
+
+        <h3 style="color: #fff; font-size: 15px; margin-top: 20px; margin-bottom: 6px;">Method 2 — Old Bose SoundTouch app (if still installed)</h3>
+        <p>If you still have the official Bose SoundTouch app installed, its WiFi setup feature is local-network-only and still works (even though the cloud service is gone). Open it, choose "Set Up New Speaker," and follow the prompts.</p>
+
+        <h3 style="color: #fff; font-size: 15px; margin-top: 20px; margin-bottom: 6px;">Method 3 — Factory reset</h3>
+        <p>As a last resort, factory reset the speaker (hold the power + volume-down buttons for 10 seconds), then re-pair using Method 1.</p>
+
+        <p style="margin-top: 16px;"><em>A one-tap speaker setup flow is coming to XSound in v1.1.</em></p>
+
+
         <p><strong>My presets disappeared.</strong><br>
         Bose ended their cloud service on May 6, 2026. Presets that were cloud-synced may have been lost when the cloud shut down. To restore them in XSound: play a station, go to the Remote tab, long-press any preset button, and tap "Save Now Playing to Preset." This saves the station directly to your speaker's local storage — it will never disappear again.</p>
 
